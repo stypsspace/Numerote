@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
-const MenuToggle = () => {
+const HeaderTemplate= () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showIndexMenu, setShowIndexMenu] = useState(false);
   const [showInfoMenu, setShowInfoMenu] = useState(false);
@@ -132,4 +132,4 @@ const MenuToggle = () => {
   );
 };
 
-export default MenuToggle;
+export default HeaderTemplate;

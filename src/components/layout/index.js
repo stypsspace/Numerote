@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import MenuToggle from 'src/components/MenuToggle'; // Import the MenuToggle component
+import HeaderTemplate from 'src/components/header/HeaderTemplate'; // Import the MenuToggle component
 
 
 
@@ -16,7 +16,7 @@ return (
 
 <header className='site-header'>
 
-<MenuToggle /> {/* Use the MenuToggle component */}
+<HeaderTemplate/> {/* Use the MenuToggle component */}
 
 </header>
 

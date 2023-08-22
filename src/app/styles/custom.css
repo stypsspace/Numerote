@@ -99,7 +99,7 @@ position: relative;
 display:block; 
 top:5px;
 left:10px;
-font-size:14px;
+font-size:15px;
 }
 
 .styps-logo img{
@@ -186,7 +186,7 @@ left:10px;
 ul.site-header-menu-content li{
 position: relative; 
 padding-right: 20px;
-color:#111;
+color:#ccc;
 cursor: pointer;
 font-weight:400;
 font-size:14px;
@@ -194,7 +194,7 @@ font-size:14px;
 
 
 ul.site-header-menu-content li a{
-  color:#111;
+  color:#ccc;
   cursor: pointer;
   font-weight:400;
 font-size:14px;
