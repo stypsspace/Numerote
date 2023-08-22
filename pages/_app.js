@@ -1,5 +1,7 @@
 import Layout from '@/components/layout';
 import 'src/app/styles/globals.css';
+import 'src/app/styles/custom.css';
+import 'src/app/styles/responsive.css';
 // import 'typeface-inter';
 import Head from 'next/head'; // Import the Head component
 
