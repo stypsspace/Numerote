@@ -243,8 +243,8 @@ Header inner menu
 
 .site-header-inner-menu{
 position: relative;  
-width:500px;
-background:#0E0E0E;
+width: 33.3%;
+background:#eee;
 border-radius: 8px;
 margin-top:10px; 
 position:fixed;
@@ -280,8 +280,14 @@ padding-left:10px;
 padding-right:10px; 
 padding-top:10px;
 padding-bottom:10px;
+font-weight: 400;
+font-size:14px;
 }
 
+h3.site-header-index-menu-header-title{
+font-weight: 400;
+font-size:14px;
+}
 
 ul.site-header-index-menu-content{
 position: relative;
@@ -290,16 +296,15 @@ margin-top:30px;
 
 
 ul.site-header-index-menu-content li a{
-color:#2a2a2a;
-font-weight: 500;
+color:#ccc;
 }
 
 
 ul.site-header-index-menu-content li a:hover{
-color:#e1e1e1;
-transition: 0.5s ease-in-out;
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-transition: 0.5s ease-in-out;
+color:#333;
+transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
 }
 
 
@@ -309,7 +314,7 @@ transition: 0.5s ease-in-out;
 .close-site-header-index-menu{
   position:absolute;
   cursor: pointer;
-  background: #151515;
+  background: #ddd;
   border-radius: 6px;
   padding-top:6px;
   padding-left:12px;
@@ -317,13 +322,15 @@ transition: 0.5s ease-in-out;
   padding-bottom:6px;
   right:5px;
   top:5px;
+  font-weight: 400;
+font-size:14px;
   
 }
 
 
   
 .close-site-header-index-menu:hover{
-  background: #1f1f1f;
+  background: #ccc;
   transition: 0.5s ease-in-out;
   -webkit-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
@@ -341,8 +348,16 @@ Info menu
   padding-right:10px; 
   padding-top:10px;
   padding-bottom:10px;
+  font-weight: 400;
+font-size:14px;
   }
   
+
+
+  h3.site-header-info-menu-header-title{
+font-weight: 400;
+font-size:14px;
+}
   
   ul.site-header-info-menu-content{
   position: relative;
@@ -351,13 +366,13 @@ Info menu
   
   
   ul.site-header-info-menu-content li a{
-  color:#2a2a2a;
-  font-weight: 500;
+  color:#ccc;
+  font-weight: 400;
   }
   
   
   ul.site-header-info-menu-content li a:hover{
-  color:#e1e1e1;
+  color:#333;
   transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
@@ -370,7 +385,7 @@ Info menu
   .close-site-header-info-menu{
     position:absolute;
     cursor: pointer;
-    background: #151515;
+    background: #ddd;
     border-radius: 6px;
     padding-top:6px;
     padding-left:12px;
@@ -378,13 +393,13 @@ Info menu
     padding-bottom:6px;
    right:5px;
    top:5px;
-    
+   
   }
   
   
     
   .close-site-header-info-menu:hover{
-    background: #1f1f1f;
+    background: #ccc;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
