@@ -1,0 +1,97 @@
+/******************************************************************
+Reset
+******************************************************************/
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+:host{
+display:none !important;
+}
+
+#detach-button-host{
+display:none !important; 
+}
+
+img, svg {
+display:block;
+max-width:100%;   
+}
+
+a{
+text-decoration:none;  
+color:#000;
+}
+
+li{
+list-style: none;   
+}
+
+
+ul{
+margin:0;
+padding:0;
+}
+
+button,
+input,
+select,
+textarea {
+outline:none;
+border:none;
+background:transparent; 
+-webkit-appearance: none; 
+-moz-appearance: none; 
+-ms-appearance: none; 
+-o-appearance: none; 
+appearance: none;  
+}
+
+
+h1, h2, h3, h4, h5,h6{
+font-weight:normal;  
+}
+
+h3{
+font-size:18px;  
+}
+
+body{
+	font-family: "inter";
+	background:#fefefe;
+	width:100%;
+	font-size:18px; 
+}
+
+
+/*************************************************************************
+Globals
+**************************************************************************/
+
+
+
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.site-wrapper {
+display: grid;
+grid-template-rows: auto 1fr auto; /* Update grid-template-rows */
+min-height: 100vh;
+}
+
+.site-header {
+grid-row: 1; /* Header in the first row */
+}
+
+.wrap {
+grid-row: 2; /* Main content in the second row */
+}
+
+.site-footer {
+grid-row: 3; /* Footer in the last row */
+}
