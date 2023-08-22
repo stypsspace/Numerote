@@ -1,7 +1,8 @@
 
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-// import MenuToggle from 'src/components/MenuToggle';
+import MenuToggle from 'src/components/MenuToggle'; // Import the MenuToggle component
+
 
 
 const Layout = ({ children }) => {
@@ -15,7 +16,7 @@ return (
 
 <header className='site-header'>
 
- {/* <MenuToggle /> */}
+<MenuToggle /> {/* Use the MenuToggle component */}
 
 </header>
 
